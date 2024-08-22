@@ -19,7 +19,7 @@ const Tasks = ({ tasks, hideDoneTasks }) => (
                     {task.content}
                 </span>
                 <button className="tasks__button tasks__button--remove">
-                {'\u1F5D1'}
+                &#x1F5D1;
                 </button>
             </li>
         ))}
